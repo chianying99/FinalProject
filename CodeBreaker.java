@@ -10,7 +10,7 @@ public class CodeBreaker implements Player {
 
     @Override
     public ArrayList<Color> makeGuess() {
-        System.out.println("Enter your guess (e.g., RYGB): ");
+        System.out.println("Enter your guess (Format: RYGB): ");
         String input = scanner.nextLine();
         ArrayList<Color> guess = new ArrayList<>();
         for (char c : input.toCharArray()) {

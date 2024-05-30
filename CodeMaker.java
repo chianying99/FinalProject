@@ -36,4 +36,8 @@ public Feedback provideFeedback(ArrayList<Color> guess) {
 
     return new Feedback(correctPositionAndColor, correctColorOnly);
 }
+
+    public Code getCode() {
+        return code;
+    }
 }

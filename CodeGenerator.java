@@ -10,9 +10,9 @@ class CodeGenerator {
         Color[] colors = new Color[4];
 
         for (int i= 0; i < colors.length; i++){
-            colors[i] = Color.valueOf()[random.nextInt(Color.valueOf().length)];
+            colors[i] = Color.values()[random.nextInt(Color.values().length)];
         }
-        return hashCode(colors);
+        return new Code(colors);
     }
 
 }

@@ -12,6 +12,10 @@ class Color {
         this.name = name;
     }
 
+    public static Color[] values() {
+        return new Color[]{R, G, B, Y, O, P};
+    }
+
     public String getName() {
         return name;
     }
