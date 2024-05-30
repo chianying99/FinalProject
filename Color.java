@@ -20,6 +20,11 @@ class Color {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     public static Color valueOf(String color) {
         switch (color.toUpperCase()) {
             case "R":
