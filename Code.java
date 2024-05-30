@@ -1,4 +1,6 @@
-
+/**
+ * Class representing the code to be guessed in the Mastermind game.
+ */
 public class Code {
     private final Color[] colors;
 
@@ -10,5 +12,3 @@ public class Code {
         return colors;
     }
 }
-
-

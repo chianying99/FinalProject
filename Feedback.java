@@ -1,3 +1,6 @@
+/**
+ * Class representing the feedback given to the code breaker in the Mastermind game.
+ */
 class Feedback {
     private final int correctPositionAndColor;
     private final int correctColorOnly;
